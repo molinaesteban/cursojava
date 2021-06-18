@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio Formulario</title>
+    <link rel="stylesheet" type="text/css" href="recursos/estilos.css">
+    <script type="text/javascript" src="recursos/funciones.js"></script>
+</head>
+<body>
+              <form name="form1" action="Servlet" method="post" onsubmit="return validarForma(this)">
+<input type="hidden" name="oculto" value="valorOculto">
+    <table width="200" id="enfacis-columna" >
+        <caption>
+            Formulario registro datos
+        </caption>
+        <tr>
+            <td class="columna">
+                Usuario (*)
+            </td>
+            <td>
+                <label>
+                    <input class="default" type="text" name="usuario" value="Escribir usuario"
+                    onfocus="this.select()">
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td class="columna">
+                Password (*)
+            </td>
+            <td>
+                <label>
+                    <input class="default" type="password" name="password"
+                    onfocus="this.select()"/>
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td class="columna">
+                Tecnologias de internet:(*)
+            </td>
+            <td>
+               Java <label>
+                <input type="checkbox" name="tecnologia" value="java">
+            </label>
+                &nbsp;&nbsp;&nbsp;
+                .net<label>
+                <input type="checkbox" name="tecnologia" value="net">
+                &nbsp;&nbsp;&nbsp;
+            </label>
+                php<label>
+                <input type="checkbox" name="tecnologia" value="php">
+                &nbsp;&nbsp;&nbsp;
+            </label>
+            </td>
+
+        </tr>
+
+        <tr>
+            <td class="columna">
+                Genero:(*)
+            </td>
+            <td>
+              hombre <label>
+                <input type="radio" name="genero" value="H">
+            </label>
+                &nbsp;&nbsp;&nbsp;
+                Mujer <label>
+                <input type="radio" name="genero" value="M">
+            </label>
+            </td>
+        </tr>
+        <tr>
+            <td class="columna">
+                Ocupacion:(*)
+            </td>
+            <td>
+               <select name="ocupacion" class="default">
+                   <option value="">Seleccionar</option>
+                   <option value="1">Profesor</option>
+                   <option value="2">Ingeniero</option>
+                   <option value="3">Jubilado</option>
+                   <option value="4">otro</option>
+               </select>
+            </td>
+        </tr>
+        <tr>
+            <td class="columna">
+                Musica Favorita:
+            </td>
+            <td>
+                <select name="musica" multiple class="default">
+                    <option value="rock">Rock</option>
+                    <option value="jazz">Jazz</option>
+                    <option value="trap">trap</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td class="columna">
+                Comentarios:
+            </td>
+            <td>
+                <textarea name="comentarios" cols="30" rows="2"
+                          onfocus="this.select()">
+                    Escribir un texto
+                </textarea>
+            </td>
+        </tr>
+        <tr style="text-align: center"></tr>
+        <td>
+            <input type="reset" value="limpiar">
+        </td>
+
+        <td>
+            <input type="submit" value="enviar"/>
+        </td>
+    </table>
+</form>
+</body>
+</html>

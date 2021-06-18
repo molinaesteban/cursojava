@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="CookiesContador:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>CookiesContador</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="CookiesContador-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="CookiesContador:war exploded" />
+    </root>
+  </artifact>
+</component>

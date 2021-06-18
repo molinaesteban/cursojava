@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="CabecerosRespuesta:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>CabecerosRespuesta</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="CabecerosRespuesta-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="CabecerosRespuesta:war exploded" />
+    </root>
+  </artifact>
+</component>

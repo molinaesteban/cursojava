@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ManejoCookies:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ManejoCookies</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ManejoCookies-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="ManejoCookies:war exploded" />
+    </root>
+  </artifact>
+</component>

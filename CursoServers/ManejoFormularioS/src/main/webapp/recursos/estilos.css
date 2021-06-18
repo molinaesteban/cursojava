@@ -1,0 +1,40 @@
+body, .default{
+    line-height: 1.6mm;
+    font-family: "Lucida Sans Unicode", "Lucida G", "SansSerif", sans-serif;
+    font-size: 12px;
+    color: #669;
+}
+
+#enfacis-columna{
+    margin: 45px;
+    width: 480px;
+    text-align: left;
+    border-collapse: collapse;
+}
+#enfacis-columna caption{
+    font-size: 20px;
+
+}
+#enfacis-columna th{
+    font-size: 14px;
+    font-weight: normal;
+    padding: 12px 15px;
+    color: #039;
+}
+#enfacis-columna td{
+    padding: 10px 15px;
+    color: #669;
+    border-top: 1px solid #e8edff;
+
+}
+.columna{
+    background: #d0dafd;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+}
+
+#enfacis-columna tr:hover td {
+    color: #339;
+    background: #eff2ff;
+
+}
